@@ -72,4 +72,17 @@
     }
   });
 
+  // After contact form submit
+  var submitted = false;
+  $('#gform').on('submit', function(e) {
+    $('#gform *').fadeOut(1000);
+    $('#thank_you_message').fadeIn(500)
+  });
+
+  // Clear button
+  $('#btnClearContactUs').on('click', function(e) {
+    $('#gform input').val('');
+    $('#gform select').val('');
+    $('#gform textarea').val('');
+  });
 })(jQuery); // End of use strict

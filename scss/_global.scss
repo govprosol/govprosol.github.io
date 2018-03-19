@@ -77,3 +77,8 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+.form-group.required label:after {
+  content:"*";
+  color:red;
+}
