@@ -44,6 +44,26 @@ h6 {
   background-color: $gray-900 !important;
 }
 
+.bg-light {
+  background-color: $gray-200 !important;
+}
+
+.section-background {
+  background-color: $section-background !important;
+}
+
+.section-text {
+  color: $section-text !important;
+}
+
+.btn-success {
+  background-color: $primary !important;
+}
+
+.btn-danger {
+  background-color: $danger !important;
+}
+
 .text-faded {
   color: fade-out($white, .3);
 }
