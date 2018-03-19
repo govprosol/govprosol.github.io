@@ -214,16 +214,25 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header.masthead p {
   font-weight: 300;
 }
 
+@media (min-width: 400px) {
+  header.masthead h1 {
+    font-size: 0.8rem;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 1.5rem;
   }
 }
 
@@ -235,13 +244,13 @@ header.masthead p {
     padding-bottom: 0;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
