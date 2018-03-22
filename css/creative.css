@@ -200,7 +200,6 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  /*background-image: url('../img/header_light.png');*/
   background: linear-gradient(rgba(255, 255, 255, 0.75), #dadadaf0), url("/img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
