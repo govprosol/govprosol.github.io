@@ -105,6 +105,45 @@ img::-moz-selection {
   color: red;
 }
 
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  color: #fff;
+}
+
+.custom-carousel-caption h3,
+.custom-carousel-caption p {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-carousel-caption {
+  display: none !important;
+  position: absolute;
+  bottom: 20px;
+  left: 7%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-indicators .active {
+  background-color: #00bc9c;
+}
+
+#slides {
+  padding-bottom: 1rem;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
